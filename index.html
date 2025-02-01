@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
   <!-- sora-font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,36 +84,45 @@
     <!-- nav-bar-end -->
     <!-- banner-container -->
 
-    <main class=" md:relative  md:w-[1000px] md:h-[749px] bg-no-repeat justify-center md:ml-[80px]"> 
-        
-      <div class=" md:absolute top-10 space-y-3 md:space-y-5 p-3 ">
-        <h1 class="adlam-display-regular text-[30px] md:text-5xl font-normal">
-          Pamper Your Pet, <br> Because They Deserve <br> the Best
-        </h1>
-        <p class="text-[16px] md:text-[10px] font-normal">
-          Discover a world of treats, toys, and essentials handpicked for <br>
-          your furry friends. Shop now and make tails wag with joy!
-        </p>
-        <a class="btn bg-btn-1">Register</a>
-      </div>
+  
+      <main class=" md:relative  md:w-[1000px] md:h-[749px] bg-no-repeat justify-center md:ml-[80px]">
 
-
-      <div class="bg-cover bg-center h-[180px]">
-        <img src="c1-assets/cat-big.png" alt="">
-      </div>
-
-
-    </main>
+        <div class=" md:absolute top-10 space-y-3 md:space-y-5 p-3 ">
+          <h1 class="adlam-display-regular text-[30px] md:text-5xl font-normal">
+            Pamper Your Pet, <br> Because They Deserve <br> the Best
+          </h1>
+          <p class="text-[16px] md:text-[10px] font-normal">
+            Discover a world of treats, toys, and essentials handpicked for <br>
+            your furry friends. Shop now and make tails wag with joy!
+          </p>
+          <!-- From Uiverse.io by augustin_4687 -->
+          <button class="button lg:mt-10">
+            <div>
+              <div>
+                <div>Find a pet</div>
+              </div>
+            </div>
+          </button>
+  
+        </div>
+  
+  
+        <div class="bg-cover bg-center h-[180px]">
+          <img src="c1-assets/cat-big.png" alt="">
+        </div>
+  
+  
+      </main>
   </header>
   <!-- banner-container -->
 
   <!-- Browse By Categories -->
 
-  <main class="adlam-display-regular pt-[20px]  md:pl[100px] pl-[18px] mt-5">
+  <main class="adlam-display-regular pt-[20px]  md:pl[100px] pl-[35px] mt-5 lg:w-[1220px]  lg:h-[450px] mx-auto">
 
-    <h1 class="font-normal text-4xl md:ml-[80px] mt-7">Browse By Categories</h1>
+    <h1 class="font-normal text-4xl  mt-7">Browse By Categories</h1>
     <!-- card continer -->
-    <div class="flex flex-col lg:flex-row gap-2 lg:gap-7 md:ml-[80px] mt-9">
+    <div class="flex flex-col lg:flex-row gap-2 lg:gap-7  mt-9">
       <!-- dog-box-1 -->
       <div class="flex gap-2 lg:gap-7">
         <!-- card-1 -->
@@ -172,8 +182,8 @@
         </div>
       </div>
   </main>
-                                        <!-- Browse By Categories -->
-                                         <!-- Trending Pet Products -->
+  <!-- Browse By Categories -->
+  <!-- Trending Pet Products -->
 
   <main class=" bg-[#FFF9F4] lg:w-full md:h-[575px] md:mt-[126px] mt-[60px] mx-auto">
     <h1 class="adlam-display-regular font-normal md:text-[36px] text-[24px] pt-10 md:pl-20 pl-20 ">Trending Pet Products</h1>
@@ -335,15 +345,39 @@
       </div>
     </div>
   </main>
-                                       <!-- Trending Pet Products -->
-                                       <!-- Everyday low Price -->
-  
-  <main class="adlam-display-regular mb-[-200px] ">
-    <h1 class="adlam-display-regular lg:text[36px] text-[31px] font-normal lg:ml-[80px] ml-4">Everyday low Price</h1>
+  <!-- Trending Pet Products -->
+   <!-- clnge strt -->
+   <h1 class="font-normal lg:text-3xl text-[24px] adlam-display-regular lg:pl-20 pl-4 lg:pt-9">Customer Favorites</h1>
+   <main
+   class=" flex gap-5 flex-col-reverse lg:mx-auto  lg:flex-row lg:w-[1200px] w-[357px] lg:h-[450px]  bg-[#F4C2C2] lg:justify-between rounded-2xl ml-[35px] items-center lg:items-start lg:mt-28 mt-11">
 
-    <div class=" flex lg:flex-row flex-col gap-3 lg:mx-20 mx-3">
-                                       <!-- big-dog-1 -->
-      <div  class="flex lg:w-[704px] w-[357px] lg:h-[450px] h-[312px] rounded-xl  bg-gradient-to-bl from-[#F8CCFB] to-[#ACD2FD] ">
+   <div class="lg:mt-20 text-left">
+     <div>
+       <h1 class="font-normal md:text-[32px] text-[29px] lg:pl-14 adlam-display-regular "> Customer Favorites</h1>
+       <p class="md:mt-[20px] mt-[12px] lg:pl-14 text-[12px]">Check out the top-rated pet dresses loved by our
+         customers. <br>Your pet deserves the best!</p>
+     </div>
+
+     <div class="lg:pl-14">
+       <a class="btn bg-btn-1 lg:mt-[42px] mt bg-slate-100">See More</a>
+     </div>
+
+   </div>
+   <div>
+     <img class="lg:h-[450px] h-[300px] lg:w-full w-[340px] lg:rounded-r-2xl rounded-2xl lg:rounded-l-none lg:pr-14"
+       src="c1-assets/img-001-removebg-preview.png" alt="">
+   </div>
+ </main>
+   <!-- clnge end-->
+  <!-- Everyday low Price -->
+
+  <main class="adlam-display-regular mb-[-200px] lg:mt-28 mt-11">
+    <h1 class="adlam-display-regular lg:text[36px] text-[31px] font-normal lg:ml-[80px] ml-7 ">Everyday low Price</h1>
+
+    <div class=" flex lg:flex-row flex-col gap-3 lg:mx-20 mx-8 lg:mt-10 mt-3">
+      <!-- big-dog-1 -->
+      <div
+        class="flex lg:w-[704px] w-[357px] lg:h-[450px] h-[312px] rounded-xl  bg-gradient-to-bl from-[#F8CCFB] to-[#ACD2FD] ">
         <div class="lg:pt-[137px] pt-[38px] lg:pl-[88px] pl-34px">
           <p class="sora-font font-normal lg:text-[20px]  hidden lg:inline">Under Price</p>
           <p class="font-normal lg:text-[32px] text-[22px] ">Pet Grooming Mitt</p>
@@ -354,9 +388,10 @@
           <img src="c1-assets/cute-dog-mid.png" alt="">
         </div>
       </div>
-                                       <!-- big-dog-2 -->
+      <!-- big-dog-2 -->
 
-      <div class="flex lg:w-[512px] w-[357px] lg:h-[450px] h-[312px] rounded-xl  bg-gradient-to-bl from-[#FFF9F4] to-[#F9DF8A]  ">
+      <div
+        class="flex lg:w-[512px] w-[357px] lg:h-[450px] h-[312px] rounded-xl  bg-gradient-to-bl from-[#FFF9F4] to-[#F9DF8A]  ">
         <div class="lg:pt-[55px] pt-[38px] lg:pl-[50px] pl-34px">
           <p class="font-normal lg:text-[32px] text-[29px]">T-Shirt for Dogs</p>
           <h1 class="lg:text-[56px] text-[39px] text-[#FFDC26]">$7.99</h1>
@@ -369,8 +404,9 @@
 
     </div>
   </main>
-                                            <!-- Everyday low Price -->
-                                            <!-- Get Pawsome News!-footer -->
+  <!-- Everyday low Price -->
+
+  <!-- Get Pawsome News!-footer -->
   <section class="justify-center relative top-[250px]">
     <div class="lg:flex lg:w-[1200px] w-[359px] lg:h-[491px] h-[523px] bg-[#FFF9F4] mx-auto rounded-2xl ">
       <div class="lg:mr-[117px] mt-7 px-[84px]">
@@ -379,14 +415,18 @@
       </div>
       <div class="lg:mt-[77px] mt-[32px] ">
         <h1 class="lg:font-bold font-normal lg:text-[36px] text-[22px] text-center lg:text-left">Get Pawsome News!</h1>
-        <p class="font-normal lg:text-[20px] text-[16px] lg:top-5 top-3 text-center lg:mt-5 mt-3">Exclusive training tips, ticks, product deals and more.</p>
-        <input class="lg:top-[38px] top-[26px] lg:w-[472px] w-[312px] lg:h-[67px] h-[42px] rounded-xl  lg:mt-[38px] mt-[26px]" type="email" placeholder="Enter email...."></input>
+        <p class="font-normal lg:text-[20px] text-[16px] lg:top-5 top-3 text-center lg:mt-5 mt-3">Exclusive training
+          tips, ticks, product deals and more.</p>
+        <input
+          class="lg:top-[38px] top-[26px] lg:w-[472px] w-[312px] lg:h-[67px] h-[42px] rounded-xl  lg:mt-[38px] mt-[26px] pl-7"
+          type="email" placeholder="Enter email...."></input>
         <br>
-         <button class="px-[119px] lg:px-0"><a class="btn bg-btn-1 lg:top-12 top-3 lg:mt-[38px] mt-[12px] ">Subscribe</a></button>
+        <button class="px-[119px] lg:px-0"><a
+            class="btn bg-btn-1 lg:top-12 top-3 lg:mt-[38px] mt-[12px] ">Subscribe</a></button>
       </div>
     </div>
   </section>
-                                            <!-- fotter-section -->
+  <!-- fotter-section -->
   <footer class="sora-font w-full h-[654px] bg-[#FFDC2680]">
     <div class="flex justify-around lg:flex-row flex-col  pt-[300px]">
       <div>
@@ -409,7 +449,7 @@
           <img src="c1-assets/Vector (2).png" alt="">
           <img src="c1-assets/Vector (4).png" alt="">
         </div>
-        
+
       </div>
     </div>
   </footer>
