@@ -28,7 +28,7 @@ A sleek, responsive pet listing website where users can explore adorable pets an
 
 ## 📸 Screenshot
 
-![Browse4Pets Screenshot](./assets/imagess.png)
+![Browse4Pets Screenshot](./c1-assets/imagess.png)
 
 > Replace this with your actual screenshot file!
 
